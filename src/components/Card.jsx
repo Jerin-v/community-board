@@ -5,11 +5,11 @@ const Card = (props) => {
     return (
         <div className="card">
             <div className="cardBody">
-                <img src={props.img}></img>
-                <h2>{ props.title }</h2>
-                <p>{ props.desc }</p>
+                <img className = "cardImg" src={props.img}></img>
+                <h2 className="cardTitle">{ props.title }</h2>
+                <p className="cardDesc">{ props.desc }</p>
             </div>
-            <button>View Itinerary</button>
+            <button className="cardBtn">View Itinerary</button>
 
         </div>
     
