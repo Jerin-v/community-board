@@ -1,18 +1,32 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+.card {
+  border: 1px solid rgb(23, 22, 22);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, .2);
+  padding: 20px;
+  margin: 10px;
   text-align: center;
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  color: black;
-  background-color: white;
+  max-width: 350px;
+
 }
 
+.card .cardImg {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
 
- body {
+.card .cardTitle {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  color: black;
+}
+
+.card .cardDesc {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: fit-content;
+}
+
+.card .cardBtn {
+  cursor: pointer;
+  border-radius: 5px;
 }
